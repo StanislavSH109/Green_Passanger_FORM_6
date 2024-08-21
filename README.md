@@ -1,7 +1,7 @@
 <h1 align="center">Green Passanger(FORM)</h1>
 <h2 align="center"><i>I begin to layout the form according to the proposed layout, which includes a specially developed UI-KIT</i></h2>
 <p>Key tasks at work:</p>
-<ul>
+<ul style="list-style: square;">
   <li>If there is little content on the page, then the footer should always be pressed</li>
   <li>The elements in the header need to be modified as in the layout</li>
   <li>Add all icons in sprite</li>
