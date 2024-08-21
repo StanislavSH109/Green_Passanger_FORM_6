@@ -104,7 +104,7 @@
           <form class="order-form" action="#" method="POST">
             <!-- Покупатель -->
             <fieldset class="order-form__group">
-              <legend class="order-form__group-name">Доставка</legend>
+              <legend class="order-form__group-name">Покупатель</legend>
               <div class="order-form__inner">
                <div class="custom-input">
                  <input class="custom-input__field" type="text" name="user-last-name" id="user-last-name" placeholder="Кириллов" required>
@@ -117,6 +117,13 @@
               <div class="custom-input">
                 <input class="custom-input__field" type="text" name="user-surname" id="user-surname" placeholder="Андреевич">
                 <label class="custom-input__label" for="user-last-name">Отчество</label>
+              </div>
+              <div class="custom-checkbox">
+                <input class="custom-checkbox__field visually-hidden" type="checkbox" name="client-true" id="client-true">
+                <label class="custom-checkbox__label" for="">
+                  <span class="custom-checkbox__pading">Стать постоянным клиентом</span>
+                  <span class="custom-checkbox__text">Вы сможете видеть историю заказов, проще делать новые и получать скидки</span>
+                </label>
               </div>
               </div>
             </fieldset>
