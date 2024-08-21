@@ -138,23 +138,31 @@
             <fieldset class="order-form__group">
               <legend class="order-form__group-name">Контактная информация</legend>
               <div class="order-form__inner">
-                <div class="custom-input">
+                <div class="custom-input custom-input--icon">
                   <input class="custom-input__field" type="tel" name="user-phone" id="user-phone" placeholder="+79999999" required>
                   <label class="custom-input__label" for="user-phone">Телефон*</label>
-                  <svg width="24" height="24" aria-hidden="true">
+                  <svg class="custom-input__icon" width="24" height="24" aria-hidden="true">
                     <use xlink:href="images/sprite.svg#icon-phone-input"></use>
                   </svg>
                 </div>
-                <div class="custom-input">
+                <div class="custom-input custom-input--icon">
                   <input class="custom-input__field" type="email" name="user-name" id="user-mail" placeholder="mail@mail.ru">
                   <label class="custom-input__label" for="user-mail">Почта</label>
-                  <svg width="24" height="24" aria-hidden="true">
+                  <svg class="custom-input__icon" width="24" height="24" aria-hidden="true">
                     <use xlink:href="images/sprite.svg#icon-mail"></use>
                   </svg>
                 </div>
               </div>
             </fieldset>
-
+            <!--  Комментарий к заказу -->
+            <fieldset class="order-form__group">
+              <legend class="order-form__group-name">Комментарий к заказу</legend>
+              <div class="order-form__inner">
+                <div class="custom-textarea">
+                  <textarea class="custom-textarea__field" name="comment" aria-label="Введите ваш комментарий" placeholder="Введите ваш комментарий"></textarea>
+                </div>
+              </div>
+            </fieldset>
             <!-- Доставка -->
             <fieldset class="order-form__group">
               <legend class="order-form__group-name">Доставка</legend>
@@ -194,7 +202,6 @@
                 </div>
               </div>
             </fieldset>
-
             <!-- Способ оплаты -->
             <fieldset class="order-form__group">
               <legend class="order-form__group-name">Способ оплаты</legend>
