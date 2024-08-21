@@ -134,9 +134,25 @@
               </div>
               </div>
             </fieldset>
-
+            <!-- Контактная информация -->
             <fieldset class="order-form__group">
-              <legend class="order-form__group-name">Покупатель</legend>
+              <legend class="order-form__group-name">Контактная информация</legend>
+              <div class="order-form__inner">
+                <div class="custom-input">
+                  <input class="custom-input__field" type="tel" name="user-phone" id="user-phone" placeholder="+79999999" required>
+                  <label class="custom-input__label" for="user-phone">Телефон*</label>
+                  <svg width="24" height="24" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-phone-input"></use>
+                  </svg>
+                </div>
+                <div class="custom-input">
+                  <input class="custom-input__field" type="email" name="user-name" id="user-mail" placeholder="mail@mail.ru">
+                  <label class="custom-input__label" for="user-mail">Почта</label>
+                  <svg width="24" height="24" aria-hidden="true">
+                    <use xlink:href="images/sprite.svg#icon-mail"></use>
+                  </svg>
+                </div>
+              </div>
             </fieldset>
 
             <!-- Доставка -->
