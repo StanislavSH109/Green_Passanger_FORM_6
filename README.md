@@ -7,7 +7,6 @@
   <li>Add all icons in sprite</li>
   <li>Fixed the title being pressed and moving when scrolling the page</li>
   <li>Make a cookie button and position it so that when scrolling the page, the cookie button is always in the viewing area of ​​the user's screen</li>
-  <li></li>
   <li>The color of the discount line (strikethrough) should be green as per the layout</li>
 </ul>
 <img src="https://i.ibb.co/BLKqF40/UiKit.jpg" alt="Layout UI-KIT">
