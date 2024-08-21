@@ -1,0 +1,15 @@
+.custom-checkbox__label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.custom-checkbox__heading {
+    font-size: 18px;
+    line-height: 18px;
+    
+}
