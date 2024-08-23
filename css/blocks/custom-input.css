@@ -59,10 +59,19 @@
     pointer-events: none;
 }
 
-.custom-input__button-clear-icon {
+.custom-input__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     right: 15px;
+    top:50%;
     height: 24px;
     width: 24px;
     color: #475009;
+    border: none;
+    padding: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    cursor: pointer;
 }
