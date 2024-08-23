@@ -19,3 +19,8 @@
   line-height: 18px;
   padding: 16px;
 }
+
+.btn:hover {
+  background-color: #502198;
+  color: #fff;
+}

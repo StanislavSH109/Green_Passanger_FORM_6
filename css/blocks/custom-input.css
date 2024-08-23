@@ -75,3 +75,15 @@
     background-color: transparent;
     cursor: pointer;
 }
+
+.custom-input__field:hover {
+    border-color: rgb(71, 80, 9, 0.7);
+}
+
+.custom-input__field:focus-visible {
+    border-color: #475009;
+}
+
+.custom-input__field:focus-visible + .custom-input__label {
+    color: rgba(71, 80, 9, 0.7);
+}
