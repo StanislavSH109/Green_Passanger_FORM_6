@@ -13,6 +13,18 @@
     padding: 0 0 0 45px;    
 }
 
+.custom-checkbox__label:hover::before {
+    border-color: rgba(71, 80, 9, 0.7);
+}
+
+.custom-checkbox__label:hover .custom-checkbox__icon {
+    color: rgba(71, 80, 9, 0.7);
+}
+
+.custom-checkbox__label:hover .custom-checkbox__heading, .custom-checkbox__label:hover .custom-checkbox__ltext {
+    color: rgba(0, 0 , 0, 0.7);
+}
+
 .custom-checkbox__label::before {
     content: "";
     height: 30px;
