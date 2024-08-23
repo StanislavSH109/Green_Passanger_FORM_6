@@ -1,3 +1,6 @@
+.custom-checkbox--error .custom-checkbox__label::before {
+    border-color: #FF7373;
+}
 .custom-checkbox__field:checked + .custom-checkbox__label .custom-checkbox__icon {
     display: block;
 }
@@ -23,6 +26,14 @@
 
 .custom-checkbox__label:hover .custom-checkbox__heading, .custom-checkbox__label:hover .custom-checkbox__ltext {
     color: rgba(0, 0 , 0, 0.7);
+}
+
+.custom-checkbox__field:focus-visible + .custom-checkbox__label::before {
+    border-color: #502198;
+}
+
+.custom-checkbox__field:focus-visible + .custom-checkbox__label .custom-checkbox__icon {
+    color: #502198;
 }
 
 .custom-checkbox__label::before {
@@ -55,8 +66,6 @@
     left: 7px;
     display: none;
 }
-
-.customchec
 
 .custom-checkbox__link {
     text-decoration: underline;
