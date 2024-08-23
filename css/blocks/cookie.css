@@ -14,7 +14,7 @@
 
 
 .cookie--active {
-  display: block;
+  display: none;
 }
 
 .cookie__text {
