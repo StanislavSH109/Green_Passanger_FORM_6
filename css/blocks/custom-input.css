@@ -38,6 +38,13 @@
     color: #A3A3A3;
 }
 
+.custom-input__field:focus-visible + .custom-radio__label {
+    border-color: #502198;
+}
+.custom-input__field:focus-visible + .custom-radio__label::after {
+    background-color: #502198;
+}
+
 .custom-input__field[disabled] {
     background-color: #ffffff;
     border-color: rgb(173, 173, 173, 0.4);

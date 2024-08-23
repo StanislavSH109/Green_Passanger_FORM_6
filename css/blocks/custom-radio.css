@@ -17,6 +17,19 @@
   cursor: pointer;
 }
 
+.custom-radio__label:hover {
+  border-color: rgba(71, 80, 9, 0.7);
+}
+
+.custom-radio__label:hover::after {
+  background-color: rgba(71, 80, 9, 0.7));
+}
+
+.custom-radio__label:hover .custom-radio__top, 
+.custom-radio__label:hover .custom-radio__text {
+  color: rgba(0, 0 ,0, 0.7);
+}
+
 .custom-radio__label::before {
   content: "";
   height: 26px;
