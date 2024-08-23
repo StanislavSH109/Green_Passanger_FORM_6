@@ -43,3 +43,7 @@
     left: 7px;
     display: none;
 }
+
+.custom-checkbox__link {
+    text-decoration: underline;
+}
